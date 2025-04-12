@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
       <img src={Logo} alt="R5" />
-      <h1>R5 Testnet Faucet</h1>
+      <h1 style={{ margin: 'auto' }}>R5 Testnet Faucet</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -52,7 +52,7 @@ function App() {
             padding: "10px",
             borderRadius: "5px",
             margin: "5px",
-            minWidth: "64ch"
+            minWidth: "40ch"
           }}
         />
         <button type="submit" disabled={isLoading} style={{ padding: '10px 15px' }}>
